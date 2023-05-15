@@ -17,8 +17,8 @@ const About = () => {
 
           <p className="py-2 text-gray-600">
             I am Full-stack developer with experience in front-end development
-            using technologies such as HTML, CSS, Bootstrap, Javascript and
-            React. Backend technologies I have experience working with are
+            using technologies such as HTML, CSS, Bootstrap, Javascript, React
+            and NextJS. Backend technologies I have experience working with are
             NodeJS, ExpressJS and MongoDB. I enjoy designing and building
             different web applications from scratch using different web
             technologies.
@@ -31,8 +31,6 @@ const About = () => {
               Projects
             </button>
           </Link>
-
-         
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image src={aboutImg} className="rounded-xl" alt="/" />
