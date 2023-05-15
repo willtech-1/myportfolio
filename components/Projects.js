@@ -2,7 +2,7 @@
 import autoSetters from "../public/assets/projects/auto-setters.png";
 import itunes from "../public/assets/projects/itunes.png";
 import ourEvents from "../public/assets/projects/events.png";
-import credit from "../public/assets/projects/creditScore.png";
+import credit from "../public/assets/projects/ecommerce.png";
 //import project item component
 import ProjectItem from "./ProjectItem";
 
@@ -42,10 +42,10 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Credit Score"
+            title="eCommerce"
             backgroundImg={credit}
             projectUrl="/creditScore"
-            tech="React JS"
+            tech="Next JS"
           />
         </div>
       </div>

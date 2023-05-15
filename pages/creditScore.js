@@ -12,8 +12,8 @@ const creditScore = () => {
   return (
     <>
       <Head>
-        <title>Check Credit Score Project</title>
-        <meta name="description" content="credit score" />
+        <title>eCommerce</title>
+        <meta name="description" content="ecommerce" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -32,7 +32,7 @@ const creditScore = () => {
 
           {/* overlay text */}
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Credit Score App</h2>
+            <h2 className="py-2">eCommerce App</h2>
             <h3>NextJS / Tailwindcss / HTML / MongoDB</h3>
           </div>
         </div>
