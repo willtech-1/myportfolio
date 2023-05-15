@@ -5,7 +5,7 @@ import Image from "next/image";
 // nextjs routing link
 import Link from "next/link";
 // project image
-import score from "../public/assets/projects/creditScore.png";
+import score from "../public/assets/projects/ecommerce.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const creditScore = () => {
@@ -33,7 +33,7 @@ const creditScore = () => {
           {/* overlay text */}
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
             <h2 className="py-2">Credit Score App</h2>
-            <h3>ReactJS / JavaScript / CSS / HTML</h3>
+            <h3>NextJS / Tailwindcss / HTML / MongoDB</h3>
           </div>
         </div>
 
@@ -45,20 +45,23 @@ const creditScore = () => {
 
             <br />
             <p>
-            I developed this application using mock data. Users need enter a valid South African ID number in order to log into the app and the mock data I used is manipulated using the user&apos;s last name.
-            Users can check for their credit score, they can go to their profile, check where do they rank in their area, what loans do they qualify for and affordability calculator to determine how much you could afford to save monthly.
+              Developed the application using NextJS on the front-end, React
+              contextAPI to manage the state and getServerSideProps to fetch
+              data from the database. User can search for the product, add item
+              to cart, remove item and use contact form or whatsapp for
+              enquiries
             </p>
 
             {/* links to github and live code */}
             <a
-              href="https://github.com/willtech-1/check-credit"
+              href="https://github.com/willtech-1/ecommerce"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
             <a
-              href="https://willtech-check-credit.netlify.app"
+              href="https://ecommerce-pi-vert.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -75,13 +78,14 @@ const creditScore = () => {
                   <RiRadioButtonFill className="pr-1" /> HTML
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> CSS
+                  <RiRadioButtonFill className="pr-1" /> TailwindCSS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Javascript
+                  <RiRadioButtonFill className="pr-1" />
+                  NextJS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> ReactJS
+                  <RiRadioButtonFill className="pr-1" /> MongoDB
                 </p>
               </div>
             </div>
